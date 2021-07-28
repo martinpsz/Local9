@@ -4,7 +4,7 @@ import Banner from '../Banner/banner'
 export default function navbar() {
     return (
         <div>
-            <Banner/>
+            <Banner notification="Today: General Membership Meeting. Join Us!"/>
             
         </div>
     )
