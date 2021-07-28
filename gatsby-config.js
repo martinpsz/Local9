@@ -32,5 +32,17 @@ module.exports = {
       }
     ]
   },
-  plugins: [`gatsby-plugin-react-helmet`],
+  plugins: [`gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+            `montserrat\:300`
+        ],
+        display: 'swap'
+      }
+  },
+  
+  
+  ],
 }
