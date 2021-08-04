@@ -1,18 +1,14 @@
 import React from "react"
 import '../style.css'
 import Seo from "../components/seo"
-import Navbar from "../components/Navbar/navbar"
-//import Header from "../components/Header/header"
-//import About from "../components/About/about"
-//import Upcoming from "../components/Upcoming/upcoming"
-//import Join from "../components/Join/join"
-//import Footer from "../components/Footer/footer"
+import NotificationBar from "../components/NotificationBar/NotificationBar"
+
 
 export default function Home() {
   return (
     <>
-      <Seo/>
-      <Navbar/>
+      <Seo />
+      <NotificationBar><p>Welcome to the UPTE Local 9 website</p></NotificationBar>
     </>
   )
 }

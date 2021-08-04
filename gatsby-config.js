@@ -33,11 +33,12 @@ module.exports = {
     ]
   },
   plugins: [`gatsby-plugin-react-helmet`,
+  `gatsby-plugin-fontawesome-css`,
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-            `montserrat\:300`
+            `montserrat\:300, 400`
         ],
         display: 'swap'
       }

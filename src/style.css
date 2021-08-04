@@ -4,11 +4,18 @@
     box-sizing: border-box;
 }
 
-html{
-    font-size: 18px;
-    
-}
+
 
 body{
     font-family: 'montserrat';
+    max-width: 1440px;
+    margin: 0 auto;
 }
+
+:root{
+    --dark-blue: #13293D;
+    --upte-blue: #02A2D8;
+    --red: #DF2935;
+    --yellow: #FFBE0B;
+}
+
