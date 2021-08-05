@@ -1,5 +1,5 @@
 import React from 'react'
-import * as NotificationBarCSS from './NotificiationBar.module.css'
+import * as NotificationBarCSS from './NotificationBar.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
